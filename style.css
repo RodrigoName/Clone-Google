@@ -1,0 +1,184 @@
+body {
+    margin:0;
+    padding:0;
+    height:100%;
+    
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 18px;
+    font-size: 13px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.logar div{
+    margin-right: 20px;
+
+}
+.gmail, .imagens{
+    margin-top: -4px;
+}
+
+
+
+.icon img{
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+    
+    
+}
+
+.icon img:hover{
+    box-shadow: 0 4px 8px 0 rgba(134, 133, 133, 0.2), 0 6px 20px 0 rgba(146, 142, 142, 0.19);
+    cursor:pointer;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: #3c4043;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+section {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 136px;
+}
+
+.barra_pesquisa {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #adb0ba;
+    border-radius: 20px;
+   
+}
+
+.barra_pesquisa:hover{
+    box-shadow: 0 4px 8px 0 rgba(134, 133, 133, 0.2), 0 6px 20px 0 rgba(146, 142, 142, 0.19);
+    cursor:pointer;
+}
+
+.lupa img {
+    
+    width: 30px;
+    padding: 5px;
+}
+
+.teclado img {
+    
+    width: 30px;
+    padding: 5px;
+}
+
+.microfone img {
+    
+    width: 22px;
+    padding: 5px;
+
+}
+
+
+#search1 {
+        
+        width: auto;
+        min-width: 40vw;
+        height: 42px;
+        border: none;
+        
+        
+}
+
+.itens {
+    font-size: 13px;
+    color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 27px;
+    
+
+}
+
+button {
+    font-size: 13px;
+    font-weight: lighter;
+    padding: 10px;
+    text-align: center;
+    margin-right: 10px;
+    background-color: #f9f9fb;
+    border: 1px solid white;
+    color: rgb(75, 75, 75);
+
+}
+
+button:hover {
+    border: 1px solid #adb0ba;
+    border-radius: 5px;
+    cursor:pointer;
+
+}
+
+
+
+footer {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    color: #adb0ba;
+    position:fixed;
+    bottom:0; 
+    height:auto; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width:100%;
+    
+   
+}
+
+footer .pais{
+    border-bottom: 1px solid #adb0ba;
+    padding: 15px;
+    padding-left: 40px;
+
+}
+
+
+.footer_menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+}
+
+ul li{
+   list-style: none;
+   display: inline-block;
+   flex-direction: row;
+   margin-right: 20px;
+   
+}
+
+.footer_a a{
+    color: #adb0ba;
+}
+
+.footer_a a:hover {
+    color: #adb0ba;
+    cursor:pointer;
+}
